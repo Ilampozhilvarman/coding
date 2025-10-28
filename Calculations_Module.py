@@ -32,7 +32,7 @@ def cos(num):
 def tan(num):
     return math.tan(num)
 
-def log(num)
+def log(num):
     return math.log(num)
 
 def abs(num):
