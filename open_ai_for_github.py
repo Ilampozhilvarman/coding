@@ -4,7 +4,7 @@ from openai import OpenAI
 question = input("What is your question?: ")
 
 client = OpenAI(
-    api_key=""
+    api_key="" #Add your api key from openAi
 )
 
 chat_completion = client.chat.completions.create(
